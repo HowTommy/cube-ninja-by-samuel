@@ -28,7 +28,7 @@ public class ennemyscript : MonoBehaviour
         else if(other.name == "Down")
         {
             score++;
-            this.transform.position = new Vector3(Random.Range(-7.8f, 7.8f), 6.75f, this.transform.position.z);
+            this.transform.position = new Vector3(Random.Range(-8.15f, 8.19f), 6.75f, this.transform.position.z);
         }
     }
 }
